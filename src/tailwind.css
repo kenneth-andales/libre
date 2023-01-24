@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+
+
+.btn-term {
+    @apply 
+    tw-border-2 
+    tw-mb-10 
+    tw-border-blue
+    tw-text-blue 
+    tw-py-3 
+    tw-px-6 
+    tw-rounded-3xl 
+    hover:tw-bg-blue 
+    hover:tw-text-white 
+    tw-transition-all;
+}
+
+@tailwind utilities;
+
+
+.bold {
+    font-weight: bold;
+}
+
