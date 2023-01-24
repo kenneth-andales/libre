@@ -16,7 +16,7 @@ function App() {
 
   return (
     <Suspense fallback={<Loader/>}>
-      <BrowserRouter>
+      <BrowserRouter basename='/libre'>
         <Navbar />
         <Routes>
           <Route path='*' element={<NotFound/>} />
